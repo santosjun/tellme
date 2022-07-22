@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { useState } from 'react'
 import styles from '../styles/Home.module.css'
-import { questions } from './questions'
+import { questions } from '../data/questions'
 
 function getRandomQuestion() {
   return questions[Math.floor(Math.random() * questions.length)]
